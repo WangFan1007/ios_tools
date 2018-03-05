@@ -15,6 +15,7 @@
 		432DA004204D286100DFEB96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 432DA003204D286100DFEB96 /* main.m */; };
 		432DA00E204D286200DFEB96 /* ios_toolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 432DA00D204D286200DFEB96 /* ios_toolsTests.m */; };
 		432DA019204D286200DFEB96 /* ios_toolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 432DA018204D286200DFEB96 /* ios_toolsUITests.m */; };
+		432DA02B204D2CDF00DFEB96 /* BlockAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 432DA02A204D2CDF00DFEB96 /* BlockAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		432DA014204D286200DFEB96 /* ios_toolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios_toolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		432DA018204D286200DFEB96 /* ios_toolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_toolsUITests.m; sourceTree = "<group>"; };
 		432DA01A204D286200DFEB96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		432DA029204D2CDF00DFEB96 /* BlockAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockAlertView.h; sourceTree = "<group>"; };
+		432DA02A204D2CDF00DFEB96 /* BlockAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,11 @@
 		432D9FF3204D286100DFEB96 /* ios_tools */ = {
 			isa = PBXGroup;
 			children = (
+				432DA02E204D2D6A00DFEB96 /* Views */,
+				432DA02D204D2D5A00DFEB96 /* Datas */,
+				432DA02C204D2D3F00DFEB96 /* NetWorks */,
+				432DA028204D2C8D00DFEB96 /* Commons */,
+				432DA026204D2C0700DFEB96 /* Category */,
 				432D9FF4204D286100DFEB96 /* AppDelegate.h */,
 				432D9FF5204D286100DFEB96 /* AppDelegate.m */,
 				432D9FF7204D286100DFEB96 /* ViewController.h */,
@@ -130,6 +138,43 @@
 				432DA01A204D286200DFEB96 /* Info.plist */,
 			);
 			path = ios_toolsUITests;
+			sourceTree = "<group>";
+		};
+		432DA026204D2C0700DFEB96 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		432DA028204D2C8D00DFEB96 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				432DA029204D2CDF00DFEB96 /* BlockAlertView.h */,
+				432DA02A204D2CDF00DFEB96 /* BlockAlertView.m */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		432DA02C204D2D3F00DFEB96 /* NetWorks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetWorks;
+			sourceTree = "<group>";
+		};
+		432DA02D204D2D5A00DFEB96 /* Datas */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Datas;
+			sourceTree = "<group>";
+		};
+		432DA02E204D2D6A00DFEB96 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				432D9FF9204D286100DFEB96 /* ViewController.m in Sources */,
+				432DA02B204D2CDF00DFEB96 /* BlockAlertView.m in Sources */,
 				432DA004204D286100DFEB96 /* main.m in Sources */,
 				432D9FF6204D286100DFEB96 /* AppDelegate.m in Sources */,
 			);
